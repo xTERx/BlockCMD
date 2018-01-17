@@ -163,17 +163,13 @@ class BlockCMD extends PluginBase implements Listener{
     $player = $event->getPlayer();
     $command = str_replace("/", "", explode(" ", strtolower($event->getMessage()))[0]);
     if($this->commands->exists($command)){
-      $player->sendMessage("Command exist");
       $levels = $this->commands->get($command);
       
       if($player->hasPermission("blockcmd.access") || $player->hasPermission("blockcmd.access." . $command)){
-        $player->sendMessage("I have perm");
         return;
       }
       if(!empty($levels)){
-        $player->sendMessage("Levels are not empty");
         if(in_array($player->getLevel()->getName(), $levels)){
-          $player->sendMessage("Im in the array of allowed levels");
           return;
         }
       }

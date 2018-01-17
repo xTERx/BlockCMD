@@ -1,6 +1,6 @@
 name: BlockCMD
 main: BlockCMD\BlockCMD
-version: 1.0.0
+version: 1.0.0-beta
 api: 3.0.0-ALPHA10
 
 author: kenygamer

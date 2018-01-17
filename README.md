@@ -1,4 +1,7 @@
 # BlockCMD
+![](http://isitmaintained.com/badge/resolution/kenygamer/BlockCMD.svg)
+![](https://img.shields.io/github/release/kenygamer/BlockCMD/all.svg)
+![](https://img.shields.io/github/downloads/kenygamer/BlockCMD/total.svg)
 
 A PocketMine-MP plugin to block certain commands from being used by players in your server.
 
